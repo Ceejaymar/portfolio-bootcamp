@@ -36,7 +36,7 @@ After cloning/forking the repository, navigate to the project in your terminal.
 
 Pen & Paper
 
-## Fonts
+### Fonts
 
 [Top font combinations](https://blog.marvelapp.com/top-font-combinations/)
 
@@ -46,7 +46,7 @@ Pen & Paper
   - Open Sans
   - Merriweather
 
-## Choosing Colors
+### Choosing Colors
 
 [Happy Hues](https://www.happyhues.co/)
 
@@ -56,7 +56,7 @@ Pen & Paper
 
 [Color Palette](https://www.canva.com/colors/color-palettes/)
 
-## Portfolio Examples
+### Portfolio Examples
 
 [Squarespace examples](https://www.squarespace.com/templates/personal-CV)
 
