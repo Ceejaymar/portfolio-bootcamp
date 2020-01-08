@@ -36,7 +36,7 @@ After cloning/forking the repository, navigate to the project in your terminal.
 
 Pen & Paper
 
-### Fonts
+## Fonts
 
 [Top font combinations](https://blog.marvelapp.com/top-font-combinations/)
 
@@ -63,6 +63,8 @@ Pen & Paper
 [humans.fyi](https://humans.fyi/)
 
 [thalida](https://thalida.me/)
+
+
 
 #
 Thank you!
