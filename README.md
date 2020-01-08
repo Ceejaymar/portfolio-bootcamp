@@ -1,5 +1,5 @@
 # Portfolio bootcamp
-Let's create some awesome portfolios to show our creations.
+Let's create some awesome portfolios to show what we've made!
 
 ## What we'll use
 - [BEM](http://getbem.com/)
@@ -56,9 +56,13 @@ Pen & Paper
 
 [Color Palette](https://www.canva.com/colors/color-palettes/)
 
-## Portolio Examples
+## Portfolio Examples
 
 [Squarespace examples](https://www.squarespace.com/templates/personal-CV)
+
+[humans.fyi](https://humans.fyi/)
+
+[thalida](https://thalida.me/)
 
 #
 Thank you!
