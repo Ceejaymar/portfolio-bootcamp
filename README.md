@@ -34,6 +34,8 @@ After cloning/forking the repository, navigate to the project in your terminal.
 
 [Canva](https://www.canva.com/)
 
+[Figma](https://www.figma.com/)
+
 Pen & Paper
 
 ### Fonts
