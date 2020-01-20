@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  background-color: lightyellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px; }
+  .container .item {
+    padding: 15px; }
+    .container .item--1 {
+      background-color: orangered; }
+    .container .item--2 {
+      background-color: forestgreen; }
+    .container .item--3 {
+      background-color: rebeccapurple;
+      grid-column: 2 / -1; }
+    .container .item--4 {
+      background-color: palevioletred;
+      grid-row: 1 / 2;
+      grid-column: 3 / 4; }
+    .container .item--5 {
+      background-color: aqua; }
+    .container .item--6 {
+      background-color: firebrick;
+      grid-area: 1 / 2 / 2 / 3; }

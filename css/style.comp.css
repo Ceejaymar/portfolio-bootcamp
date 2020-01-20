@@ -1,0 +1,17 @@
+.container {
+  width: 1000px;
+  background-color: firebrick; }
+  .container .item {
+    padding: 15px; }
+    .container .item--1 {
+      background-color: orangered; }
+    .container .item--2 {
+      background-color: forestgreen; }
+    .container .item--3 {
+      background-color: rebeccapurple; }
+    .container .item--4 {
+      background-color: palevioletred; }
+    .container .item--5 {
+      background-color: aqua; }
+    .container .item--6 {
+      background-color: firebrick; }
