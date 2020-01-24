@@ -1,5 +1,41 @@
-$color-black:  #000;
+$c-black:  #000;
+
+$c-pink: palevioletred;
+$c-red: firebrick;
+$c-blue: darkslateblue;
+$c-blue-light: aquamarine;
+
+// $font-primary: "caveat";
+
+$xlarge: 1200px;
+$large: 90px;
+$medium: 650px;
+$small: 450px;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 
 body {
+  padding: 0;
+  margin: 0;
+}
 
+.container {
+  display: grid;
+
+  grid-template-columns: [full-start] 1fr [content-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [content-end]1fr [full-end];
+
+  grid-template-rows: 50px calc(100vh - 50px) 50vh min-content 40vh 50px;
+
+  @media only screen and (max-width: $medium) {
+    grid-template-rows: 50px calc(100vh - 50px) 100vh 50vh min-content 40vh 50px;
+  }
 }

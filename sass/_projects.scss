@@ -1,0 +1,28 @@
+.Projects {
+  // background-color: $c-blue-light;
+
+  grid-column: content-start / content-end;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 4rem;
+
+  &__content {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90% 10%;
+    justify-items: center;
+    height: 200px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / -1;
+    object-fit: cover;
+  };
+}

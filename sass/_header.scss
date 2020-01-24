@@ -1,0 +1,31 @@
+.Header {
+
+  &__info {
+    background-color: $c-blue;
+    grid-column: full-start / col-start 5;
+
+    // @media only screen and (max-width: $large) {
+    //   background-color: $c-blue-light;
+    //   grid-column: full-start / full-end;
+    // }
+
+    @media only screen and (max-width: $medium) {
+      background-color: $c-blue-light;
+      grid-column: full-start / full-end;
+    }
+
+    // @media only screen and (max-width: $small) {
+    //   background-color: $c-pink;
+    // }
+  }
+
+  &__picture {
+    background-color: $c-red;
+    grid-column: col-start 5 / full-end;
+
+    @media only screen and (max-width: $medium) {
+      grid-column: full-start / full-end;
+      grid-row: 2 / 3;
+    }
+  }
+}
